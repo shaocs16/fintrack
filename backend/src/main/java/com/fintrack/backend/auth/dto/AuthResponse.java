@@ -1,4 +1,4 @@
 package com.fintrack.backend.auth.dto;
 
-public class AuthResponse {
+public record AuthResponse(String token, String email, String name) {
 }
